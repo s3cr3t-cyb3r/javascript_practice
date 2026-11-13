@@ -1,0 +1,12 @@
+let taskTitle = "Household Chores";
+let taskStatus = false;
+let taskOwner = "Lance";
+let taskPriority = 1;
+let tasks = ["Do laundry", "Take out trash", "Sweep floor"];
+let taskInfo = {title: taskTitle, owner: taskOwner, priority: taskPriority, tasks: tasks, completed: taskStatus};
+console.log(taskInfo.title);
+console.log(taskInfo.owner);
+console.log(taskInfo.priority);
+console.log(taskInfo.tasks);
+console.log(taskInfo.completed);
+console.log(taskInfo);
